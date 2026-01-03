@@ -8,6 +8,6 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return Blade::render('hello', []);
+        return Blade::render('pages.hello', []);
     }
 }
