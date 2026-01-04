@@ -63,6 +63,8 @@ writable/uploads/*
 writable/debugbar/*
 !writable/debugbar/index.html
 
+writable/database.db
+
 php_errors.log
 
 #-------------------------
@@ -127,3 +129,4 @@ _modules/*
 
 # node
 node_modules/
+public/build/

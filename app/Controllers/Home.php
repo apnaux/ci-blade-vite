@@ -6,7 +6,7 @@ use App\Libraries\Blade;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function index()
     {
         return Blade::render('pages.hello', []);
     }

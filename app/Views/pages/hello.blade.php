@@ -2,5 +2,5 @@
 @section('title', 'Home Page')
 
 @section('body')
-  <h1 class="text-red-800">Hello, world!</h1>
+  <h1 class="text-red-800 font-bold">Hello, world!</h1>
 @endsection

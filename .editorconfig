@@ -1,0 +1,4 @@
+root = true
+
+[*.{html,css,js,ts,py,vue}]
+indent_size=2
