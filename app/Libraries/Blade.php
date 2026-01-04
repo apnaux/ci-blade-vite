@@ -14,7 +14,7 @@ class Blade
             $tokenHash = csrf_hash(); 
             return "<input type='hidden' name='{$tokenName}' value='{$tokenHash}'>";
         });
-        ENVIRONMENT;
+        
         // vite directive for app.blade.php
         $blade->directive('vite', function ($files = []) {
             return <<<'blade'
